@@ -1,0 +1,38 @@
+{
+  "name": "codigos-gob-bo",
+  "version": "0.1.0",
+  "description": "Node.js, cliente para obtener informacion de codigos.gob.bo",
+  "main": "codigos.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmtdavid/codigos.git"
+  },
+  "keywords": [
+    "codigos",
+    "bolivia",
+    "api",
+    "webservice",
+    "rest",
+    "json"
+  ],
+  "author": "Teodoro Nina <tnina@adsib.gob.bo>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nmtdavid/codigos/issues"
+  },
+  "homepage": "https://github.com/nmtdavid/codigos#readme",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "request-promise": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "grunt": "~0.4.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
