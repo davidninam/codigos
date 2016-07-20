@@ -33,6 +33,7 @@ function codigos(parametros) {
   var thisCodigos = this;
   thisCodigos.urlCodigos = null;
   thisCodigos.formato = 'json';
+  thisCodigos.msg = {};
   parametros = parametros || {};
 
   if("urlCodigos" in parametros){
